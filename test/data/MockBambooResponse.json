@@ -1,0 +1,2826 @@
+{
+  "SST": {
+    "results": {
+      "size": 3,
+      "expand": "result",
+      "start-index": 0,
+      "max-result": 3,
+      "result": [
+        {
+          "link": {
+            "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPPE-1960",
+            "rel": "self"
+          },
+          "plan": {
+            "shortName": "Sircon Smoke Test - PreProd Environment",
+            "shortKey": "SSTPPE",
+            "type": "chain",
+            "enabled": true,
+            "link": {
+              "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTPPE",
+              "rel": "self"
+            },
+            "key": "SST-SSTPPE",
+            "name": "Sircon Smoke Test - Sircon Smoke Test - PreProd Environment",
+            "planKey": {
+              "key": "SST-SSTPPE"
+            }
+          },
+          "buildResultKey": "SST-SSTPPE-1960",
+          "lifeCycleState": "Finished",
+          "id": 121516688,
+          "key": "SST-SSTPPE-1960",
+          "planResultKey": {
+            "key": "SST-SSTPPE-1960",
+            "entityKey": {
+              "key": "SST-SSTPPE"
+            },
+            "resultNumber": 1960
+          },
+          "state": "Successful",
+          "buildState": "Successful",
+          "number": 1960,
+          "buildNumber": 1960
+        },
+        {
+          "link": {
+            "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPE-1995",
+            "rel": "self"
+          },
+          "plan": {
+            "shortName": "Sircon Smoke Test - Prod Environment",
+            "shortKey": "SSTPE",
+            "type": "chain",
+            "enabled": true,
+            "link": {
+              "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTPE",
+              "rel": "self"
+            },
+            "key": "SST-SSTPE",
+            "name": "Sircon Smoke Test - Sircon Smoke Test - Prod Environment",
+            "planKey": {
+              "key": "SST-SSTPE"
+            }
+          },
+          "buildResultKey": "SST-SSTPE-1995",
+          "lifeCycleState": "Finished",
+          "id": 121517414,
+          "key": "SST-SSTPE-1995",
+          "planResultKey": {
+            "key": "SST-SSTPE-1995",
+            "entityKey": {
+              "key": "SST-SSTPE"
+            },
+            "resultNumber": 1995
+          },
+          "state": "Successful",
+          "buildState": "Successful",
+          "number": 1995,
+          "buildNumber": 1995
+        },
+        {
+          "link": {
+            "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTQAE-1925",
+            "rel": "self"
+          },
+          "plan": {
+            "shortName": "Sircon Smoke Test - QA Environment",
+            "shortKey": "SSTQAE",
+            "type": "chain",
+            "enabled": true,
+            "link": {
+              "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTQAE",
+              "rel": "self"
+            },
+            "key": "SST-SSTQAE",
+            "name": "Sircon Smoke Test - Sircon Smoke Test - QA Environment",
+            "planKey": {
+              "key": "SST-SSTQAE"
+            }
+          },
+          "buildResultKey": "SST-SSTQAE-1925",
+          "lifeCycleState": "Finished",
+          "id": 121517838,
+          "key": "SST-SSTQAE-1925",
+          "planResultKey": {
+            "key": "SST-SSTQAE-1925",
+            "entityKey": {
+              "key": "SST-SSTQAE"
+            },
+            "resultNumber": 1925
+          },
+          "state": "Failed",
+          "buildState": "Failed",
+          "number": 1925,
+          "buildNumber": 1925
+        }
+      ]
+    },
+    "expand": "results",
+    "link": {
+      "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST",
+      "rel": "self"
+    }
+  },
+  "SST-SSTPPE-1960": {
+    "expand": "changes,metadata,plan,vcsRevisions,artifacts,comments,labels,jiraIssues,stages",
+    "link": {
+      "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPPE-1960",
+      "rel": "self"
+    },
+    "plan": {
+      "shortName": "Sircon Smoke Test - PreProd Environment",
+      "shortKey": "SSTPPE",
+      "type": "chain",
+      "enabled": true,
+      "link": {
+        "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTPPE",
+        "rel": "self"
+      },
+      "key": "SST-SSTPPE",
+      "name": "Sircon Smoke Test - Sircon Smoke Test - PreProd Environment",
+      "planKey": {
+        "key": "SST-SSTPPE"
+      }
+    },
+    "planName": "Sircon Smoke Test - PreProd Environment",
+    "projectName": "Sircon Smoke Test",
+    "buildResultKey": "SST-SSTPPE-1960",
+    "lifeCycleState": "Finished",
+    "id": 121516688,
+    "buildStartedTime": "2016-10-13T08:55:56.000-04:00",
+    "prettyBuildStartedTime": "Thu, 13 Oct, 08:55 AM",
+    "buildCompletedTime": "2016-10-13T08:56:43.000-04:00",
+    "buildCompletedDate": "2016-10-13T08:56:43.000-04:00",
+    "prettyBuildCompletedTime": "Thu, 13 Oct, 08:56 AM",
+    "buildDurationInSeconds": 412,
+    "buildDuration": 412992,
+    "buildDurationDescription": "6 minutes",
+    "buildRelativeTime": "14 hours ago",
+    "vcsRevisionKey": "289626",
+    "vcsRevisions": {
+      "size": 24,
+      "start-index": 0,
+      "max-result": 24
+    },
+    "buildTestSummary": "75 passed",
+    "successfulTestCount": 68,
+    "failedTestCount": 0,
+    "quarantinedTestCount": 3,
+    "skippedTestCount": 4,
+    "restartCount": 1,
+    "continuable": false,
+    "onceOff": false,
+    "restartable": false,
+    "notRunYet": false,
+    "finished": true,
+    "successful": true,
+    "buildReason": "Rebuilt     by <a href=\"http://bamboo.sircon.com/browse/user/chowdhak\">Akbar Chowdhury</a>",
+    "reasonSummary": "Rebuilt     by <a href=\"http://bamboo.sircon.com/browse/user/chowdhak\">Akbar Chowdhury</a>",
+    "artifacts": {
+      "size": 0,
+      "start-index": 0,
+      "max-result": 0
+    },
+    "comments": {
+      "size": 0,
+      "start-index": 0,
+      "max-result": 0
+    },
+    "labels": {
+      "size": 0,
+      "start-index": 0,
+      "max-result": 0
+    },
+    "jiraIssues": {
+      "size": 3,
+      "start-index": 0,
+      "max-result": 3
+    },
+    "stages": {
+      "size": 1,
+      "expand": "stage",
+      "start-index": 0,
+      "max-result": 1,
+      "stage": [
+        {
+          "expand": "results",
+          "name": "Default Stage",
+          "description": "",
+          "id": 121574786,
+          "lifeCycleState": "Finished",
+          "state": "Successful",
+          "displayClass": "Successful",
+          "displayMessage": "21 jobs passed",
+          "collapsedByDefault": false,
+          "manual": false,
+          "restartable": false,
+          "runnable": false,
+          "results": {
+            "size": 21,
+            "expand": "result",
+            "start-index": 0,
+            "max-result": 21,
+            "result": [
+              {
+                "expand": "changes,testResults,metadata,logEntries,plan,vcsRevisions,artifacts,comments,labels,jiraIssues",
+                "link": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPPE-JOB1-1960",
+                  "rel": "self"
+                },
+                "plan": {
+                  "shortName": "AgencyEDGE",
+                  "shortKey": "SSTPPE-JOB1",
+                  "type": "job",
+                  "enabled": true,
+                  "link": {
+                    "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTPPE-JOB1",
+                    "rel": "self"
+                  },
+                  "key": "SST-SSTPPE-JOB1",
+                  "name": "Sircon Smoke Test - Sircon Smoke Test - PreProd Environment - AgencyEDGE",
+                  "planKey": {
+                    "key": "SST-SSTPPE-JOB1"
+                  }
+                },
+                "planName": "AgencyEDGE",
+                "projectName": "Sircon Smoke Test",
+                "stage": "Default Stage",
+                "buildResultKey": "SST-SSTPPE-JOB1-1960",
+                "lifeCycleState": "Finished",
+                "id": 121516705,
+                "buildStartedTime": "2016-10-13T08:00:13.000-04:00",
+                "prettyBuildStartedTime": "Thu, 13 Oct, 08:00 AM",
+                "buildCompletedTime": "2016-10-13T08:02:13.000-04:00",
+                "buildCompletedDate": "2016-10-13T08:02:13.000-04:00",
+                "prettyBuildCompletedTime": "Thu, 13 Oct, 08:02 AM",
+                "buildDurationInSeconds": 120,
+                "buildDuration": 120142,
+                "buildDurationDescription": "2 minutes",
+                "buildRelativeTime": "15 hours ago",
+                "queueStartedTime": "2016-10-13T07:50:02.000-04:00",
+                "prettyQueueStartedTime": "Thu, 13 Oct, 07:50 AM",
+                "queueTimeInSeconds": 607,
+                "queueDuration": 607000,
+                "prettyQueueDuration": "10 mins",
+                "vcsUpdateStartedTime": "2016-10-13T08:00:09.000-04:00",
+                "prettyVcsUpdateStartedTime": "Thu, 13 Oct, 08:00 AM",
+                "vcsUpdateInSeconds": 4,
+                "vcsUpdateDuration": 4000,
+                "prettyVcsUpdateDuration": "4 secs",
+                "vcsRevisionKey": "289626",
+                "vcsRevisions": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "buildTestSummary": "11 passed",
+                "successfulTestCount": 11,
+                "failedTestCount": 0,
+                "quarantinedTestCount": 0,
+                "skippedTestCount": 0,
+                "onceOff": false,
+                "buildReason": "Rerun build",
+                "reasonSummary": "Rebuilt     by <a href=\"http://bamboo.sircon.com/browse/user/chowdhak\">Akbar Chowdhury</a>",
+                "artifacts": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "comments": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "labels": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "jiraIssues": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "changes": {
+                  "size": 2,
+                  "start-index": 0,
+                  "max-result": 2
+                },
+                "testResults": {
+                  "all": 11,
+                  "successful": 11,
+                  "failed": 0,
+                  "newFailed": 0,
+                  "existingFailed": 0,
+                  "fixed": 0,
+                  "quarantined": 0,
+                  "skipped": 0
+                },
+                "metadata": {
+                  "size": 391,
+                  "start-index": 0,
+                  "max-result": 391
+                },
+                "logEntries": {
+                  "size": 550,
+                  "start-index": 0,
+                  "max-result": 25
+                },
+                "parent": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPPE-1960",
+                  "rel": "parent"
+                },
+                "key": "SST-SSTPPE-JOB1-1960",
+                "planResultKey": {
+                  "key": "SST-SSTPPE-JOB1-1960",
+                  "entityKey": {
+                    "key": "SST-SSTPPE-JOB1"
+                  },
+                  "resultNumber": 1960
+                },
+                "state": "Successful",
+                "buildState": "Successful",
+                "number": 1960,
+                "buildNumber": 1960
+              },
+              {
+                "expand": "changes,testResults,metadata,logEntries,plan,vcsRevisions,artifacts,comments,labels,jiraIssues",
+                "link": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPPE-PM-1960",
+                  "rel": "self"
+                },
+                "plan": {
+                  "shortName": "Producer Manager",
+                  "shortKey": "SSTPPE-PM",
+                  "type": "job",
+                  "enabled": true,
+                  "link": {
+                    "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTPPE-PM",
+                    "rel": "self"
+                  },
+                  "key": "SST-SSTPPE-PM",
+                  "name": "Sircon Smoke Test - Sircon Smoke Test - PreProd Environment - Producer Manager",
+                  "planKey": {
+                    "key": "SST-SSTPPE-PM"
+                  }
+                },
+                "planName": "Producer Manager",
+                "projectName": "Sircon Smoke Test",
+                "stage": "Default Stage",
+                "buildResultKey": "SST-SSTPPE-PM-1960",
+                "lifeCycleState": "Finished",
+                "id": 121516689,
+                "buildStartedTime": "2016-10-13T08:02:15.000-04:00",
+                "prettyBuildStartedTime": "Thu, 13 Oct, 08:02 AM",
+                "buildCompletedTime": "2016-10-13T08:05:38.000-04:00",
+                "buildCompletedDate": "2016-10-13T08:05:38.000-04:00",
+                "prettyBuildCompletedTime": "Thu, 13 Oct, 08:05 AM",
+                "buildDurationInSeconds": 203,
+                "buildDuration": 203850,
+                "buildDurationDescription": "3 minutes",
+                "buildRelativeTime": "15 hours ago",
+                "queueStartedTime": "2016-10-13T07:50:02.000-04:00",
+                "prettyQueueStartedTime": "Thu, 13 Oct, 07:50 AM",
+                "queueTimeInSeconds": 731,
+                "queueDuration": 731000,
+                "prettyQueueDuration": "12 mins",
+                "vcsUpdateStartedTime": "2016-10-13T08:02:13.000-04:00",
+                "prettyVcsUpdateStartedTime": "Thu, 13 Oct, 08:02 AM",
+                "vcsUpdateInSeconds": 2,
+                "vcsUpdateDuration": 2000,
+                "prettyVcsUpdateDuration": "2 secs",
+                "vcsRevisionKey": "289626",
+                "vcsRevisions": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "buildTestSummary": "8 passed",
+                "successfulTestCount": 7,
+                "failedTestCount": 0,
+                "quarantinedTestCount": 1,
+                "skippedTestCount": 0,
+                "onceOff": false,
+                "buildReason": "Rerun build",
+                "reasonSummary": "Rebuilt     by <a href=\"http://bamboo.sircon.com/browse/user/chowdhak\">Akbar Chowdhury</a>",
+                "artifacts": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "comments": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "labels": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "jiraIssues": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "changes": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "testResults": {
+                  "all": 7,
+                  "successful": 7,
+                  "failed": 0,
+                  "newFailed": 0,
+                  "existingFailed": 0,
+                  "fixed": 0,
+                  "quarantined": 1,
+                  "skipped": 0
+                },
+                "metadata": {
+                  "size": 392,
+                  "start-index": 0,
+                  "max-result": 392
+                },
+                "logEntries": {
+                  "size": 394,
+                  "start-index": 0,
+                  "max-result": 25
+                },
+                "parent": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPPE-1960",
+                  "rel": "parent"
+                },
+                "key": "SST-SSTPPE-PM-1960",
+                "planResultKey": {
+                  "key": "SST-SSTPPE-PM-1960",
+                  "entityKey": {
+                    "key": "SST-SSTPPE-PM"
+                  },
+                  "resultNumber": 1960
+                },
+                "state": "Successful",
+                "buildState": "Successful",
+                "number": 1960,
+                "buildNumber": 1960
+              },
+              {
+                "expand": "changes,testResults,metadata,logEntries,plan,vcsRevisions,artifacts,comments,labels,jiraIssues",
+                "link": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPPE-SFS-1960",
+                  "rel": "self"
+                },
+                "plan": {
+                  "shortName": "Sircon for States",
+                  "shortKey": "SSTPPE-SFS",
+                  "type": "job",
+                  "enabled": true,
+                  "link": {
+                    "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTPPE-SFS",
+                    "rel": "self"
+                  },
+                  "key": "SST-SSTPPE-SFS",
+                  "name": "Sircon Smoke Test - Sircon Smoke Test - PreProd Environment - Sircon for States",
+                  "planKey": {
+                    "key": "SST-SSTPPE-SFS"
+                  }
+                },
+                "planName": "Sircon for States",
+                "projectName": "Sircon Smoke Test",
+                "stage": "Default Stage",
+                "buildResultKey": "SST-SSTPPE-SFS-1960",
+                "lifeCycleState": "Finished",
+                "id": 121516701,
+                "buildStartedTime": "2016-10-13T08:00:55.000-04:00",
+                "prettyBuildStartedTime": "Thu, 13 Oct, 08:00 AM",
+                "buildCompletedTime": "2016-10-13T08:02:13.000-04:00",
+                "buildCompletedDate": "2016-10-13T08:02:13.000-04:00",
+                "prettyBuildCompletedTime": "Thu, 13 Oct, 08:02 AM",
+                "buildDurationInSeconds": 78,
+                "buildDuration": 78032,
+                "buildDurationDescription": "1 minute",
+                "buildRelativeTime": "15 hours ago",
+                "queueStartedTime": "2016-10-13T07:50:02.000-04:00",
+                "prettyQueueStartedTime": "Thu, 13 Oct, 07:50 AM",
+                "queueTimeInSeconds": 650,
+                "queueDuration": 650000,
+                "prettyQueueDuration": "10 mins",
+                "vcsUpdateStartedTime": "2016-10-13T08:00:52.000-04:00",
+                "prettyVcsUpdateStartedTime": "Thu, 13 Oct, 08:00 AM",
+                "vcsUpdateInSeconds": 3,
+                "vcsUpdateDuration": 3000,
+                "prettyVcsUpdateDuration": "3 secs",
+                "vcsRevisionKey": "289626",
+                "vcsRevisions": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "buildTestSummary": "7 passed",
+                "successfulTestCount": 5,
+                "failedTestCount": 0,
+                "quarantinedTestCount": 1,
+                "skippedTestCount": 1,
+                "onceOff": false,
+                "buildReason": "Rerun build",
+                "reasonSummary": "Rebuilt     by <a href=\"http://bamboo.sircon.com/browse/user/chowdhak\">Akbar Chowdhury</a>",
+                "artifacts": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "comments": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "labels": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "jiraIssues": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "changes": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "testResults": {
+                  "all": 5,
+                  "successful": 5,
+                  "failed": 0,
+                  "newFailed": 0,
+                  "existingFailed": 0,
+                  "fixed": 0,
+                  "quarantined": 1,
+                  "skipped": 1
+                },
+                "metadata": {
+                  "size": 392,
+                  "start-index": 0,
+                  "max-result": 392
+                },
+                "logEntries": {
+                  "size": 397,
+                  "start-index": 0,
+                  "max-result": 25
+                },
+                "parent": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPPE-1960",
+                  "rel": "parent"
+                },
+                "key": "SST-SSTPPE-SFS-1960",
+                "planResultKey": {
+                  "key": "SST-SSTPPE-SFS-1960",
+                  "entityKey": {
+                    "key": "SST-SSTPPE-SFS"
+                  },
+                  "resultNumber": 1960
+                },
+                "state": "Successful",
+                "buildState": "Successful",
+                "number": 1960,
+                "buildNumber": 1960
+              },
+              {
+                "expand": "changes,testResults,metadata,logEntries,plan,vcsRevisions,artifacts,comments,labels,jiraIssues",
+                "link": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPPE-CE-1960",
+                  "rel": "self"
+                },
+                "plan": {
+                  "shortName": "Compliance Express",
+                  "shortKey": "SSTPPE-CE",
+                  "type": "job",
+                  "enabled": true,
+                  "link": {
+                    "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTPPE-CE",
+                    "rel": "self"
+                  },
+                  "key": "SST-SSTPPE-CE",
+                  "name": "Sircon Smoke Test - Sircon Smoke Test - PreProd Environment - Compliance Express",
+                  "planKey": {
+                    "key": "SST-SSTPPE-CE"
+                  }
+                },
+                "planName": "Compliance Express",
+                "projectName": "Sircon Smoke Test",
+                "stage": "Default Stage",
+                "buildResultKey": "SST-SSTPPE-CE-1960",
+                "lifeCycleState": "Finished",
+                "id": 121516703,
+                "buildStartedTime": "2016-10-13T08:55:59.000-04:00",
+                "prettyBuildStartedTime": "Thu, 13 Oct, 08:55 AM",
+                "buildCompletedTime": "2016-10-13T08:56:43.000-04:00",
+                "buildCompletedDate": "2016-10-13T08:56:43.000-04:00",
+                "prettyBuildCompletedTime": "Thu, 13 Oct, 08:56 AM",
+                "buildDurationInSeconds": 44,
+                "buildDuration": 44073,
+                "buildDurationDescription": "44 seconds",
+                "buildRelativeTime": "14 hours ago",
+                "queueStartedTime": "2016-10-13T08:55:56.000-04:00",
+                "prettyQueueStartedTime": "Thu, 13 Oct, 08:55 AM",
+                "queueTimeInSeconds": 0,
+                "queueDuration": 0,
+                "prettyQueueDuration": "< 1 sec",
+                "vcsUpdateStartedTime": "2016-10-13T08:55:56.000-04:00",
+                "prettyVcsUpdateStartedTime": "Thu, 13 Oct, 08:55 AM",
+                "vcsUpdateInSeconds": 3,
+                "vcsUpdateDuration": 3000,
+                "prettyVcsUpdateDuration": "3 secs",
+                "vcsRevisionKey": "289626",
+                "vcsRevisions": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "buildTestSummary": "6 passed",
+                "successfulTestCount": 6,
+                "failedTestCount": 0,
+                "quarantinedTestCount": 0,
+                "skippedTestCount": 0,
+                "restartCount": 1,
+                "onceOff": false,
+                "buildReason": "Rerun build",
+                "reasonSummary": "Rebuilt     by <a href=\"http://bamboo.sircon.com/browse/user/chowdhak\">Akbar Chowdhury</a>",
+                "artifacts": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "comments": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "labels": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "jiraIssues": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "changes": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "testResults": {
+                  "all": 6,
+                  "successful": 6,
+                  "failed": 0,
+                  "newFailed": 0,
+                  "existingFailed": 0,
+                  "fixed": 0,
+                  "quarantined": 0,
+                  "skipped": 0
+                },
+                "metadata": {
+                  "size": 392,
+                  "start-index": 0,
+                  "max-result": 392
+                },
+                "logEntries": {
+                  "size": 677,
+                  "start-index": 0,
+                  "max-result": 25
+                },
+                "parent": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPPE-1960",
+                  "rel": "parent"
+                },
+                "key": "SST-SSTPPE-CE-1960",
+                "planResultKey": {
+                  "key": "SST-SSTPPE-CE-1960",
+                  "entityKey": {
+                    "key": "SST-SSTPPE-CE"
+                  },
+                  "resultNumber": 1960
+                },
+                "state": "Successful",
+                "buildState": "Successful",
+                "number": 1960,
+                "buildNumber": 1960
+              },
+              {
+                "expand": "changes,testResults,metadata,logEntries,plan,vcsRevisions,artifacts,comments,labels,jiraIssues",
+                "link": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPPE-PE-1960",
+                  "rel": "self"
+                },
+                "plan": {
+                  "shortName": "Producer Express",
+                  "shortKey": "SSTPPE-PE",
+                  "type": "job",
+                  "enabled": true,
+                  "link": {
+                    "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTPPE-PE",
+                    "rel": "self"
+                  },
+                  "key": "SST-SSTPPE-PE",
+                  "name": "Sircon Smoke Test - Sircon Smoke Test - PreProd Environment - Producer Express",
+                  "planKey": {
+                    "key": "SST-SSTPPE-PE"
+                  }
+                },
+                "planName": "Producer Express",
+                "projectName": "Sircon Smoke Test",
+                "stage": "Default Stage",
+                "buildResultKey": "SST-SSTPPE-PE-1960",
+                "lifeCycleState": "Finished",
+                "id": 121516691,
+                "buildStartedTime": "2016-10-13T08:02:09.000-04:00",
+                "prettyBuildStartedTime": "Thu, 13 Oct, 08:02 AM",
+                "buildCompletedTime": "2016-10-13T08:02:50.000-04:00",
+                "buildCompletedDate": "2016-10-13T08:02:50.000-04:00",
+                "prettyBuildCompletedTime": "Thu, 13 Oct, 08:02 AM",
+                "buildDurationInSeconds": 41,
+                "buildDuration": 41694,
+                "buildDurationDescription": "41 seconds",
+                "buildRelativeTime": "15 hours ago",
+                "queueStartedTime": "2016-10-13T07:50:02.000-04:00",
+                "prettyQueueStartedTime": "Thu, 13 Oct, 07:50 AM",
+                "queueTimeInSeconds": 725,
+                "queueDuration": 725000,
+                "prettyQueueDuration": "12 mins",
+                "vcsUpdateStartedTime": "2016-10-13T08:02:07.000-04:00",
+                "prettyVcsUpdateStartedTime": "Thu, 13 Oct, 08:02 AM",
+                "vcsUpdateInSeconds": 2,
+                "vcsUpdateDuration": 2000,
+                "prettyVcsUpdateDuration": "2 secs",
+                "vcsRevisionKey": "289626",
+                "vcsRevisions": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "buildTestSummary": "5 passed",
+                "successfulTestCount": 5,
+                "failedTestCount": 0,
+                "quarantinedTestCount": 0,
+                "skippedTestCount": 0,
+                "onceOff": false,
+                "buildReason": "Rerun build",
+                "reasonSummary": "Rebuilt     by <a href=\"http://bamboo.sircon.com/browse/user/chowdhak\">Akbar Chowdhury</a>",
+                "artifacts": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "comments": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "labels": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "jiraIssues": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "changes": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "testResults": {
+                  "all": 5,
+                  "successful": 5,
+                  "failed": 0,
+                  "newFailed": 0,
+                  "existingFailed": 0,
+                  "fixed": 0,
+                  "quarantined": 0,
+                  "skipped": 0
+                },
+                "metadata": {
+                  "size": 392,
+                  "start-index": 0,
+                  "max-result": 392
+                },
+                "logEntries": {
+                  "size": 290,
+                  "start-index": 0,
+                  "max-result": 25
+                },
+                "parent": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPPE-1960",
+                  "rel": "parent"
+                },
+                "key": "SST-SSTPPE-PE-1960",
+                "planResultKey": {
+                  "key": "SST-SSTPPE-PE-1960",
+                  "entityKey": {
+                    "key": "SST-SSTPPE-PE"
+                  },
+                  "resultNumber": 1960
+                },
+                "state": "Successful",
+                "buildState": "Successful",
+                "number": 1960,
+                "buildNumber": 1960
+              },
+              {
+                "expand": "changes,testResults,metadata,logEntries,plan,vcsRevisions,artifacts,comments,labels,jiraIssues",
+                "link": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPPE-MBPORTAL-1960",
+                  "rel": "self"
+                },
+                "plan": {
+                  "shortName": "Multiboard - Portal",
+                  "shortKey": "SSTPPE-MBPORTAL",
+                  "type": "job",
+                  "enabled": true,
+                  "link": {
+                    "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTPPE-MBPORTAL",
+                    "rel": "self"
+                  },
+                  "key": "SST-SSTPPE-MBPORTAL",
+                  "name": "Sircon Smoke Test - Sircon Smoke Test - PreProd Environment - Multiboard - Portal",
+                  "planKey": {
+                    "key": "SST-SSTPPE-MBPORTAL"
+                  }
+                },
+                "planName": "Multiboard - Portal",
+                "projectName": "Sircon Smoke Test",
+                "stage": "Default Stage",
+                "buildResultKey": "SST-SSTPPE-MBPORTAL-1960",
+                "lifeCycleState": "Finished",
+                "id": 121516696,
+                "buildStartedTime": "2016-10-13T08:01:35.000-04:00",
+                "prettyBuildStartedTime": "Thu, 13 Oct, 08:01 AM",
+                "buildCompletedTime": "2016-10-13T08:03:18.000-04:00",
+                "buildCompletedDate": "2016-10-13T08:03:18.000-04:00",
+                "prettyBuildCompletedTime": "Thu, 13 Oct, 08:03 AM",
+                "buildDurationInSeconds": 103,
+                "buildDuration": 103745,
+                "buildDurationDescription": "1 minute",
+                "buildRelativeTime": "15 hours ago",
+                "queueStartedTime": "2016-10-13T07:50:02.000-04:00",
+                "prettyQueueStartedTime": "Thu, 13 Oct, 07:50 AM",
+                "queueTimeInSeconds": 692,
+                "queueDuration": 692000,
+                "prettyQueueDuration": "11 mins",
+                "vcsUpdateStartedTime": "2016-10-13T08:01:34.000-04:00",
+                "prettyVcsUpdateStartedTime": "Thu, 13 Oct, 08:01 AM",
+                "vcsUpdateInSeconds": 1,
+                "vcsUpdateDuration": 1000,
+                "prettyVcsUpdateDuration": "1 sec",
+                "vcsRevisionKey": "289626",
+                "vcsRevisions": {
+                  "size": 2,
+                  "start-index": 0,
+                  "max-result": 2
+                },
+                "buildTestSummary": "6 passed",
+                "successfulTestCount": 4,
+                "failedTestCount": 0,
+                "quarantinedTestCount": 1,
+                "skippedTestCount": 1,
+                "onceOff": false,
+                "buildReason": "Rerun build",
+                "reasonSummary": "Rebuilt     by <a href=\"http://bamboo.sircon.com/browse/user/chowdhak\">Akbar Chowdhury</a>",
+                "artifacts": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "comments": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "labels": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "jiraIssues": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "changes": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "testResults": {
+                  "all": 4,
+                  "successful": 4,
+                  "failed": 0,
+                  "newFailed": 0,
+                  "existingFailed": 0,
+                  "fixed": 0,
+                  "quarantined": 1,
+                  "skipped": 1
+                },
+                "metadata": {
+                  "size": 392,
+                  "start-index": 0,
+                  "max-result": 392
+                },
+                "logEntries": {
+                  "size": 583,
+                  "start-index": 0,
+                  "max-result": 25
+                },
+                "parent": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPPE-1960",
+                  "rel": "parent"
+                },
+                "key": "SST-SSTPPE-MBPORTAL-1960",
+                "planResultKey": {
+                  "key": "SST-SSTPPE-MBPORTAL-1960",
+                  "entityKey": {
+                    "key": "SST-SSTPPE-MBPORTAL"
+                  },
+                  "resultNumber": 1960
+                },
+                "state": "Successful",
+                "buildState": "Successful",
+                "number": 1960,
+                "buildNumber": 1960
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "changes": {
+      "size": 5,
+      "start-index": 0,
+      "max-result": 5
+    },
+    "metadata": {
+      "size": 4,
+      "start-index": 0,
+      "max-result": 4
+    },
+    "key": "SST-SSTPPE-1960",
+    "planResultKey": {
+      "key": "SST-SSTPPE-1960",
+      "entityKey": {
+        "key": "SST-SSTPPE"
+      },
+      "resultNumber": 1960
+    },
+    "state": "Successful",
+    "buildState": "Successful",
+    "number": 1960,
+    "buildNumber": 1960
+  },
+  "SST-SSTPE-1995": {
+    "expand": "changes,metadata,plan,vcsRevisions,artifacts,comments,labels,jiraIssues,stages",
+    "link": {
+      "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPE-1995",
+      "rel": "self"
+    },
+    "plan": {
+      "shortName": "Sircon Smoke Test - Prod Environment",
+      "shortKey": "SSTPE",
+      "type": "chain",
+      "enabled": true,
+      "link": {
+        "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTPE",
+        "rel": "self"
+      },
+      "key": "SST-SSTPE",
+      "name": "Sircon Smoke Test - Sircon Smoke Test - Prod Environment",
+      "planKey": {
+        "key": "SST-SSTPE"
+      }
+    },
+    "planName": "Sircon Smoke Test - Prod Environment",
+    "projectName": "Sircon Smoke Test",
+    "buildResultKey": "SST-SSTPE-1995",
+    "lifeCycleState": "Finished",
+    "id": 121517414,
+    "buildStartedTime": "2016-10-13T13:47:17.000-04:00",
+    "prettyBuildStartedTime": "Thu, 13 Oct, 01:47 PM",
+    "buildCompletedTime": "2016-10-13T13:56:17.000-04:00",
+    "buildCompletedDate": "2016-10-13T13:56:17.000-04:00",
+    "prettyBuildCompletedTime": "Thu, 13 Oct, 01:56 PM",
+    "buildDurationInSeconds": 540,
+    "buildDuration": 540559,
+    "buildDurationDescription": "9 minutes",
+    "buildRelativeTime": "9 hours ago",
+    "vcsRevisionKey": "289657",
+    "vcsRevisions": {
+      "size": 22,
+      "start-index": 0,
+      "max-result": 22
+    },
+    "buildTestSummary": "73 passed",
+    "successfulTestCount": 69,
+    "failedTestCount": 0,
+    "quarantinedTestCount": 2,
+    "skippedTestCount": 2,
+    "continuable": false,
+    "onceOff": false,
+    "restartable": false,
+    "notRunYet": false,
+    "finished": true,
+    "successful": true,
+    "buildReason": "Manual run by <a href=\"http://bamboo.sircon.com/browse/user/sschroeder\">Steve Schroeder</a>",
+    "reasonSummary": "Manual run by <a href=\"http://bamboo.sircon.com/browse/user/sschroeder\">Steve Schroeder</a>",
+    "artifacts": {
+      "size": 0,
+      "start-index": 0,
+      "max-result": 0
+    },
+    "comments": {
+      "size": 0,
+      "start-index": 0,
+      "max-result": 0
+    },
+    "labels": {
+      "size": 0,
+      "start-index": 0,
+      "max-result": 0
+    },
+    "jiraIssues": {
+      "size": 1,
+      "start-index": 0,
+      "max-result": 1
+    },
+    "stages": {
+      "size": 1,
+      "expand": "stage",
+      "start-index": 0,
+      "max-result": 1,
+      "stage": [
+        {
+          "expand": "results",
+          "name": "Default Stage",
+          "description": "",
+          "id": 121575086,
+          "lifeCycleState": "Finished",
+          "state": "Successful",
+          "displayClass": "Successful",
+          "displayMessage": "20 jobs passed",
+          "collapsedByDefault": false,
+          "manual": false,
+          "restartable": false,
+          "runnable": false,
+          "results": {
+            "size": 20,
+            "expand": "result",
+            "start-index": 0,
+            "max-result": 20,
+            "result": [
+              {
+                "expand": "changes,testResults,metadata,logEntries,plan,vcsRevisions,artifacts,comments,labels,jiraIssues",
+                "link": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPE-SFS-1995",
+                  "rel": "self"
+                },
+                "plan": {
+                  "shortName": "Sircon for States",
+                  "shortKey": "SSTPE-SFS",
+                  "type": "job",
+                  "enabled": true,
+                  "link": {
+                    "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTPE-SFS",
+                    "rel": "self"
+                  },
+                  "key": "SST-SSTPE-SFS",
+                  "name": "Sircon Smoke Test - Sircon Smoke Test - Prod Environment - Sircon for States",
+                  "planKey": {
+                    "key": "SST-SSTPE-SFS"
+                  }
+                },
+                "planName": "Sircon for States",
+                "projectName": "Sircon Smoke Test",
+                "stage": "Default Stage",
+                "buildResultKey": "SST-SSTPE-SFS-1995",
+                "lifeCycleState": "Finished",
+                "id": 121517431,
+                "buildStartedTime": "2016-10-13T13:47:20.000-04:00",
+                "prettyBuildStartedTime": "Thu, 13 Oct, 01:47 PM",
+                "buildCompletedTime": "2016-10-13T13:49:22.000-04:00",
+                "buildCompletedDate": "2016-10-13T13:49:22.000-04:00",
+                "prettyBuildCompletedTime": "Thu, 13 Oct, 01:49 PM",
+                "buildDurationInSeconds": 122,
+                "buildDuration": 122714,
+                "buildDurationDescription": "2 minutes",
+                "buildRelativeTime": "9 hours ago",
+                "queueStartedTime": "2016-10-13T13:47:16.000-04:00",
+                "prettyQueueStartedTime": "Thu, 13 Oct, 01:47 PM",
+                "queueTimeInSeconds": 1,
+                "queueDuration": 1000,
+                "prettyQueueDuration": "1 sec",
+                "vcsUpdateStartedTime": "2016-10-13T13:47:17.000-04:00",
+                "prettyVcsUpdateStartedTime": "Thu, 13 Oct, 01:47 PM",
+                "vcsUpdateInSeconds": 3,
+                "vcsUpdateDuration": 3000,
+                "prettyVcsUpdateDuration": "3 secs",
+                "vcsRevisionKey": "289657",
+                "vcsRevisions": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "buildTestSummary": "7 passed",
+                "successfulTestCount": 6,
+                "failedTestCount": 0,
+                "quarantinedTestCount": 1,
+                "skippedTestCount": 0,
+                "onceOff": false,
+                "buildReason": "Manual build",
+                "reasonSummary": "Manual run by <a href=\"http://bamboo.sircon.com/browse/user/sschroeder\">Steve Schroeder</a>",
+                "artifacts": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "comments": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "labels": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "jiraIssues": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "changes": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "testResults": {
+                  "all": 6,
+                  "successful": 6,
+                  "failed": 0,
+                  "newFailed": 0,
+                  "existingFailed": 0,
+                  "fixed": 0,
+                  "quarantined": 1,
+                  "skipped": 0
+                },
+                "metadata": {
+                  "size": 362,
+                  "start-index": 0,
+                  "max-result": 362
+                },
+                "logEntries": {
+                  "size": 408,
+                  "start-index": 0,
+                  "max-result": 25
+                },
+                "parent": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPE-1995",
+                  "rel": "parent"
+                },
+                "key": "SST-SSTPE-SFS-1995",
+                "planResultKey": {
+                  "key": "SST-SSTPE-SFS-1995",
+                  "entityKey": {
+                    "key": "SST-SSTPE-SFS"
+                  },
+                  "resultNumber": 1995
+                },
+                "state": "Successful",
+                "buildState": "Successful",
+                "number": 1995,
+                "buildNumber": 1995
+              },
+              {
+                "expand": "changes,testResults,metadata,logEntries,plan,vcsRevisions,artifacts,comments,labels,jiraIssues",
+                "link": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPE-MBPORTAL-1995",
+                  "rel": "self"
+                },
+                "plan": {
+                  "shortName": "Multiboard - Portal",
+                  "shortKey": "SSTPE-MBPORTAL",
+                  "type": "job",
+                  "enabled": true,
+                  "link": {
+                    "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTPE-MBPORTAL",
+                    "rel": "self"
+                  },
+                  "key": "SST-SSTPE-MBPORTAL",
+                  "name": "Sircon Smoke Test - Sircon Smoke Test - Prod Environment - Multiboard - Portal",
+                  "planKey": {
+                    "key": "SST-SSTPE-MBPORTAL"
+                  }
+                },
+                "planName": "Multiboard - Portal",
+                "projectName": "Sircon Smoke Test",
+                "stage": "Default Stage",
+                "buildResultKey": "SST-SSTPE-MBPORTAL-1995",
+                "lifeCycleState": "Finished",
+                "id": 121517429,
+                "buildStartedTime": "2016-10-13T13:47:19.000-04:00",
+                "prettyBuildStartedTime": "Thu, 13 Oct, 01:47 PM",
+                "buildCompletedTime": "2016-10-13T13:54:43.000-04:00",
+                "buildCompletedDate": "2016-10-13T13:54:43.000-04:00",
+                "prettyBuildCompletedTime": "Thu, 13 Oct, 01:54 PM",
+                "buildDurationInSeconds": 443,
+                "buildDuration": 443965,
+                "buildDurationDescription": "7 minutes",
+                "buildRelativeTime": "9 hours ago",
+                "queueStartedTime": "2016-10-13T13:47:16.000-04:00",
+                "prettyQueueStartedTime": "Thu, 13 Oct, 01:47 PM",
+                "queueTimeInSeconds": 1,
+                "queueDuration": 1000,
+                "prettyQueueDuration": "1 sec",
+                "vcsUpdateStartedTime": "2016-10-13T13:47:17.000-04:00",
+                "prettyVcsUpdateStartedTime": "Thu, 13 Oct, 01:47 PM",
+                "vcsUpdateInSeconds": 2,
+                "vcsUpdateDuration": 2000,
+                "prettyVcsUpdateDuration": "2 secs",
+                "vcsRevisionKey": "289657",
+                "vcsRevisions": {
+                  "size": 2,
+                  "start-index": 0,
+                  "max-result": 2
+                },
+                "buildTestSummary": "6 passed",
+                "successfulTestCount": 5,
+                "failedTestCount": 0,
+                "quarantinedTestCount": 1,
+                "skippedTestCount": 0,
+                "onceOff": false,
+                "buildReason": "Manual build",
+                "reasonSummary": "Manual run by <a href=\"http://bamboo.sircon.com/browse/user/sschroeder\">Steve Schroeder</a>",
+                "artifacts": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "comments": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "labels": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "jiraIssues": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "changes": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "testResults": {
+                  "all": 5,
+                  "successful": 5,
+                  "failed": 0,
+                  "newFailed": 0,
+                  "existingFailed": 0,
+                  "fixed": 0,
+                  "quarantined": 1,
+                  "skipped": 0
+                },
+                "metadata": {
+                  "size": 362,
+                  "start-index": 0,
+                  "max-result": 362
+                },
+                "logEntries": {
+                  "size": 2005,
+                  "start-index": 0,
+                  "max-result": 25
+                },
+                "parent": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPE-1995",
+                  "rel": "parent"
+                },
+                "key": "SST-SSTPE-MBPORTAL-1995",
+                "planResultKey": {
+                  "key": "SST-SSTPE-MBPORTAL-1995",
+                  "entityKey": {
+                    "key": "SST-SSTPE-MBPORTAL"
+                  },
+                  "resultNumber": 1995
+                },
+                "state": "Successful",
+                "buildState": "Successful",
+                "number": 1995,
+                "buildNumber": 1995
+              },
+              {
+                "expand": "changes,testResults,metadata,logEntries,plan,vcsRevisions,artifacts,comments,labels,jiraIssues",
+                "link": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPE-PE-1995",
+                  "rel": "self"
+                },
+                "plan": {
+                  "shortName": "Producer Express",
+                  "shortKey": "SSTPE-PE",
+                  "type": "job",
+                  "enabled": true,
+                  "link": {
+                    "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTPE-PE",
+                    "rel": "self"
+                  },
+                  "key": "SST-SSTPE-PE",
+                  "name": "Sircon Smoke Test - Sircon Smoke Test - Prod Environment - Producer Express",
+                  "planKey": {
+                    "key": "SST-SSTPE-PE"
+                  }
+                },
+                "planName": "Producer Express",
+                "projectName": "Sircon Smoke Test",
+                "stage": "Default Stage",
+                "buildResultKey": "SST-SSTPE-PE-1995",
+                "lifeCycleState": "Finished",
+                "id": 121517416,
+                "buildStartedTime": "2016-10-13T13:48:50.000-04:00",
+                "prettyBuildStartedTime": "Thu, 13 Oct, 01:48 PM",
+                "buildCompletedTime": "2016-10-13T13:49:37.000-04:00",
+                "buildCompletedDate": "2016-10-13T13:49:37.000-04:00",
+                "prettyBuildCompletedTime": "Thu, 13 Oct, 01:49 PM",
+                "buildDurationInSeconds": 47,
+                "buildDuration": 47514,
+                "buildDurationDescription": "47 seconds",
+                "buildRelativeTime": "9 hours ago",
+                "queueStartedTime": "2016-10-13T13:47:16.000-04:00",
+                "prettyQueueStartedTime": "Thu, 13 Oct, 01:47 PM",
+                "queueTimeInSeconds": 93,
+                "queueDuration": 93000,
+                "prettyQueueDuration": "1 min",
+                "vcsUpdateStartedTime": "2016-10-13T13:48:49.000-04:00",
+                "prettyVcsUpdateStartedTime": "Thu, 13 Oct, 01:48 PM",
+                "vcsUpdateInSeconds": 1,
+                "vcsUpdateDuration": 1000,
+                "prettyVcsUpdateDuration": "1 sec",
+                "vcsRevisionKey": "289657",
+                "vcsRevisions": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "buildTestSummary": "5 passed",
+                "successfulTestCount": 5,
+                "failedTestCount": 0,
+                "quarantinedTestCount": 0,
+                "skippedTestCount": 0,
+                "onceOff": false,
+                "buildReason": "Manual build",
+                "reasonSummary": "Manual run by <a href=\"http://bamboo.sircon.com/browse/user/sschroeder\">Steve Schroeder</a>",
+                "artifacts": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "comments": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "labels": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "jiraIssues": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "changes": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "testResults": {
+                  "all": 5,
+                  "successful": 5,
+                  "failed": 0,
+                  "newFailed": 0,
+                  "existingFailed": 0,
+                  "fixed": 0,
+                  "quarantined": 0,
+                  "skipped": 0
+                },
+                "metadata": {
+                  "size": 362,
+                  "start-index": 0,
+                  "max-result": 362
+                },
+                "logEntries": {
+                  "size": 298,
+                  "start-index": 0,
+                  "max-result": 25
+                },
+                "parent": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPE-1995",
+                  "rel": "parent"
+                },
+                "key": "SST-SSTPE-PE-1995",
+                "planResultKey": {
+                  "key": "SST-SSTPE-PE-1995",
+                  "entityKey": {
+                    "key": "SST-SSTPE-PE"
+                  },
+                  "resultNumber": 1995
+                },
+                "state": "Successful",
+                "buildState": "Successful",
+                "number": 1995,
+                "buildNumber": 1995
+              },
+              {
+                "expand": "changes,testResults,metadata,logEntries,plan,vcsRevisions,artifacts,comments,labels,jiraIssues",
+                "link": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPE-PM-1995",
+                  "rel": "self"
+                },
+                "plan": {
+                  "shortName": "Producer Manager",
+                  "shortKey": "SSTPE-PM",
+                  "type": "job",
+                  "enabled": true,
+                  "link": {
+                    "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTPE-PM",
+                    "rel": "self"
+                  },
+                  "key": "SST-SSTPE-PM",
+                  "name": "Sircon Smoke Test - Sircon Smoke Test - Prod Environment - Producer Manager",
+                  "planKey": {
+                    "key": "SST-SSTPE-PM"
+                  }
+                },
+                "planName": "Producer Manager",
+                "projectName": "Sircon Smoke Test",
+                "stage": "Default Stage",
+                "buildResultKey": "SST-SSTPE-PM-1995",
+                "lifeCycleState": "Finished",
+                "id": 121517422,
+                "buildStartedTime": "2016-10-13T13:48:20.000-04:00",
+                "prettyBuildStartedTime": "Thu, 13 Oct, 01:48 PM",
+                "buildCompletedTime": "2016-10-13T13:50:21.000-04:00",
+                "buildCompletedDate": "2016-10-13T13:50:21.000-04:00",
+                "prettyBuildCompletedTime": "Thu, 13 Oct, 01:50 PM",
+                "buildDurationInSeconds": 121,
+                "buildDuration": 121537,
+                "buildDurationDescription": "2 minutes",
+                "buildRelativeTime": "9 hours ago",
+                "queueStartedTime": "2016-10-13T13:47:16.000-04:00",
+                "prettyQueueStartedTime": "Thu, 13 Oct, 01:47 PM",
+                "queueTimeInSeconds": 62,
+                "queueDuration": 62000,
+                "prettyQueueDuration": "1 min",
+                "vcsUpdateStartedTime": "2016-10-13T13:48:18.000-04:00",
+                "prettyVcsUpdateStartedTime": "Thu, 13 Oct, 01:48 PM",
+                "vcsUpdateInSeconds": 2,
+                "vcsUpdateDuration": 2000,
+                "prettyVcsUpdateDuration": "2 secs",
+                "vcsRevisionKey": "289657",
+                "vcsRevisions": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "buildTestSummary": "8 passed",
+                "successfulTestCount": 8,
+                "failedTestCount": 0,
+                "quarantinedTestCount": 0,
+                "skippedTestCount": 0,
+                "onceOff": false,
+                "buildReason": "Manual build",
+                "reasonSummary": "Manual run by <a href=\"http://bamboo.sircon.com/browse/user/sschroeder\">Steve Schroeder</a>",
+                "artifacts": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "comments": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "labels": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "jiraIssues": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "changes": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "testResults": {
+                  "all": 8,
+                  "successful": 8,
+                  "failed": 0,
+                  "newFailed": 0,
+                  "existingFailed": 0,
+                  "fixed": 0,
+                  "quarantined": 0,
+                  "skipped": 0
+                },
+                "metadata": {
+                  "size": 362,
+                  "start-index": 0,
+                  "max-result": 362
+                },
+                "logEntries": {
+                  "size": 346,
+                  "start-index": 0,
+                  "max-result": 25
+                },
+                "parent": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPE-1995",
+                  "rel": "parent"
+                },
+                "key": "SST-SSTPE-PM-1995",
+                "planResultKey": {
+                  "key": "SST-SSTPE-PM-1995",
+                  "entityKey": {
+                    "key": "SST-SSTPE-PM"
+                  },
+                  "resultNumber": 1995
+                },
+                "state": "Successful",
+                "buildState": "Successful",
+                "number": 1995,
+                "buildNumber": 1995
+              },
+              {
+                "expand": "changes,testResults,metadata,logEntries,plan,vcsRevisions,artifacts,comments,labels,jiraIssues",
+                "link": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPE-CE-1995",
+                  "rel": "self"
+                },
+                "plan": {
+                  "shortName": "Compliance Express",
+                  "shortKey": "SSTPE-CE",
+                  "type": "job",
+                  "enabled": true,
+                  "link": {
+                    "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTPE-CE",
+                    "rel": "self"
+                  },
+                  "key": "SST-SSTPE-CE",
+                  "name": "Sircon Smoke Test - Sircon Smoke Test - Prod Environment - Compliance Express",
+                  "planKey": {
+                    "key": "SST-SSTPE-CE"
+                  }
+                },
+                "planName": "Compliance Express",
+                "projectName": "Sircon Smoke Test",
+                "stage": "Default Stage",
+                "buildResultKey": "SST-SSTPE-CE-1995",
+                "lifeCycleState": "Finished",
+                "id": 121517419,
+                "buildStartedTime": "2016-10-13T13:48:24.000-04:00",
+                "prettyBuildStartedTime": "Thu, 13 Oct, 01:48 PM",
+                "buildCompletedTime": "2016-10-13T13:50:08.000-04:00",
+                "buildCompletedDate": "2016-10-13T13:50:08.000-04:00",
+                "prettyBuildCompletedTime": "Thu, 13 Oct, 01:50 PM",
+                "buildDurationInSeconds": 104,
+                "buildDuration": 104771,
+                "buildDurationDescription": "1 minute",
+                "buildRelativeTime": "9 hours ago",
+                "queueStartedTime": "2016-10-13T13:47:16.000-04:00",
+                "prettyQueueStartedTime": "Thu, 13 Oct, 01:47 PM",
+                "queueTimeInSeconds": 66,
+                "queueDuration": 66000,
+                "prettyQueueDuration": "1 min",
+                "vcsUpdateStartedTime": "2016-10-13T13:48:22.000-04:00",
+                "prettyVcsUpdateStartedTime": "Thu, 13 Oct, 01:48 PM",
+                "vcsUpdateInSeconds": 2,
+                "vcsUpdateDuration": 2000,
+                "prettyVcsUpdateDuration": "2 secs",
+                "vcsRevisionKey": "289657",
+                "vcsRevisions": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "buildTestSummary": "6 passed",
+                "successfulTestCount": 6,
+                "failedTestCount": 0,
+                "quarantinedTestCount": 0,
+                "skippedTestCount": 0,
+                "onceOff": false,
+                "buildReason": "Manual build",
+                "reasonSummary": "Manual run by <a href=\"http://bamboo.sircon.com/browse/user/sschroeder\">Steve Schroeder</a>",
+                "artifacts": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "comments": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "labels": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "jiraIssues": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "changes": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "testResults": {
+                  "all": 6,
+                  "successful": 6,
+                  "failed": 0,
+                  "newFailed": 0,
+                  "existingFailed": 0,
+                  "fixed": 0,
+                  "quarantined": 0,
+                  "skipped": 0
+                },
+                "metadata": {
+                  "size": 362,
+                  "start-index": 0,
+                  "max-result": 362
+                },
+                "logEntries": {
+                  "size": 320,
+                  "start-index": 0,
+                  "max-result": 25
+                },
+                "parent": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPE-1995",
+                  "rel": "parent"
+                },
+                "key": "SST-SSTPE-CE-1995",
+                "planResultKey": {
+                  "key": "SST-SSTPE-CE-1995",
+                  "entityKey": {
+                    "key": "SST-SSTPE-CE"
+                  },
+                  "resultNumber": 1995
+                },
+                "state": "Successful",
+                "buildState": "Successful",
+                "number": 1995,
+                "buildNumber": 1995
+              },
+              {
+                "expand": "changes,testResults,metadata,logEntries,plan,vcsRevisions,artifacts,comments,labels,jiraIssues",
+                "link": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPE-JOB1-1995",
+                  "rel": "self"
+                },
+                "plan": {
+                  "shortName": "AgencyEDGE",
+                  "shortKey": "SSTPE-JOB1",
+                  "type": "job",
+                  "enabled": true,
+                  "link": {
+                    "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTPE-JOB1",
+                    "rel": "self"
+                  },
+                  "key": "SST-SSTPE-JOB1",
+                  "name": "Sircon Smoke Test - Sircon Smoke Test - Prod Environment - AgencyEDGE",
+                  "planKey": {
+                    "key": "SST-SSTPE-JOB1"
+                  }
+                },
+                "planName": "AgencyEDGE",
+                "projectName": "Sircon Smoke Test",
+                "stage": "Default Stage",
+                "buildResultKey": "SST-SSTPE-JOB1-1995",
+                "lifeCycleState": "Finished",
+                "id": 121517426,
+                "buildStartedTime": "2016-10-13T13:47:20.000-04:00",
+                "prettyBuildStartedTime": "Thu, 13 Oct, 01:47 PM",
+                "buildCompletedTime": "2016-10-13T13:56:17.000-04:00",
+                "buildCompletedDate": "2016-10-13T13:56:17.000-04:00",
+                "prettyBuildCompletedTime": "Thu, 13 Oct, 01:56 PM",
+                "buildDurationInSeconds": 537,
+                "buildDuration": 537032,
+                "buildDurationDescription": "8 minutes",
+                "buildRelativeTime": "9 hours ago",
+                "queueStartedTime": "2016-10-13T13:47:16.000-04:00",
+                "prettyQueueStartedTime": "Thu, 13 Oct, 01:47 PM",
+                "queueTimeInSeconds": 1,
+                "queueDuration": 1000,
+                "prettyQueueDuration": "1 sec",
+                "vcsUpdateStartedTime": "2016-10-13T13:47:17.000-04:00",
+                "prettyVcsUpdateStartedTime": "Thu, 13 Oct, 01:47 PM",
+                "vcsUpdateInSeconds": 3,
+                "vcsUpdateDuration": 3000,
+                "prettyVcsUpdateDuration": "3 secs",
+                "vcsRevisionKey": "289657",
+                "vcsRevisions": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "buildTestSummary": "11 passed",
+                "successfulTestCount": 11,
+                "failedTestCount": 0,
+                "quarantinedTestCount": 0,
+                "skippedTestCount": 0,
+                "onceOff": false,
+                "buildReason": "Manual build",
+                "reasonSummary": "Manual run by <a href=\"http://bamboo.sircon.com/browse/user/sschroeder\">Steve Schroeder</a>",
+                "artifacts": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "comments": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "labels": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "jiraIssues": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "changes": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "testResults": {
+                  "all": 11,
+                  "successful": 11,
+                  "failed": 0,
+                  "newFailed": 0,
+                  "existingFailed": 0,
+                  "fixed": 0,
+                  "quarantined": 0,
+                  "skipped": 0
+                },
+                "metadata": {
+                  "size": 361,
+                  "start-index": 0,
+                  "max-result": 361
+                },
+                "logEntries": {
+                  "size": 3564,
+                  "start-index": 0,
+                  "max-result": 25
+                },
+                "parent": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTPE-1995",
+                  "rel": "parent"
+                },
+                "key": "SST-SSTPE-JOB1-1995",
+                "planResultKey": {
+                  "key": "SST-SSTPE-JOB1-1995",
+                  "entityKey": {
+                    "key": "SST-SSTPE-JOB1"
+                  },
+                  "resultNumber": 1995
+                },
+                "state": "Failed",
+                "buildState": "Failed",
+                "number": 1995,
+                "buildNumber": 1995
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "changes": {
+      "size": 2,
+      "start-index": 0,
+      "max-result": 2
+    },
+    "metadata": {
+      "size": 2,
+      "start-index": 0,
+      "max-result": 2
+    },
+    "key": "SST-SSTPE-1995",
+    "planResultKey": {
+      "key": "SST-SSTPE-1995",
+      "entityKey": {
+        "key": "SST-SSTPE"
+      },
+      "resultNumber": 1995
+    },
+    "state": "Successful",
+    "buildState": "Successful",
+    "number": 1995,
+    "buildNumber": 1995
+  },
+  "SST-SSTQAE-1925": {
+    "expand": "changes,metadata,plan,vcsRevisions,artifacts,comments,labels,jiraIssues,stages",
+    "link": {
+      "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTQAE-1925",
+      "rel": "self"
+    },
+    "plan": {
+      "shortName": "Sircon Smoke Test - QA Environment",
+      "shortKey": "SSTQAE",
+      "type": "chain",
+      "enabled": true,
+      "link": {
+        "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTQAE",
+        "rel": "self"
+      },
+      "key": "SST-SSTQAE",
+      "name": "Sircon Smoke Test - Sircon Smoke Test - QA Environment",
+      "planKey": {
+        "key": "SST-SSTQAE"
+      }
+    },
+    "planName": "Sircon Smoke Test - QA Environment",
+    "projectName": "Sircon Smoke Test",
+    "buildResultKey": "SST-SSTQAE-1925",
+    "lifeCycleState": "Finished",
+    "id": 121517838,
+    "buildStartedTime": "2016-10-13T15:30:03.000-04:00",
+    "prettyBuildStartedTime": "Thu, 13 Oct, 03:30 PM",
+    "buildCompletedTime": "2016-10-13T15:42:48.000-04:00",
+    "buildCompletedDate": "2016-10-13T15:42:48.000-04:00",
+    "prettyBuildCompletedTime": "Thu, 13 Oct, 03:42 PM",
+    "buildDurationInSeconds": 765,
+    "buildDuration": 765986,
+    "buildDurationDescription": "12 minutes",
+    "buildRelativeTime": "7 hours ago",
+    "vcsRevisionKey": "289676",
+    "vcsRevisions": {
+      "size": 25,
+      "start-index": 0,
+      "max-result": 25
+    },
+    "buildTestSummary": "1 of 77 failed",
+    "successfulTestCount": 69,
+    "failedTestCount": 1,
+    "quarantinedTestCount": 3,
+    "skippedTestCount": 4,
+    "continuable": false,
+    "onceOff": false,
+    "restartable": true,
+    "notRunYet": false,
+    "finished": true,
+    "successful": false,
+    "buildReason": "Changes by <a href=\"http://bamboo.sircon.com/users/viewUserSummary.action?currentUserName=limyo\">Yong Lim</a>",
+    "reasonSummary": "Changes by <a href=\"http://bamboo.sircon.com/users/viewUserSummary.action?currentUserName=limyo\">Yong Lim</a>",
+    "artifacts": {
+      "size": 0,
+      "start-index": 0,
+      "max-result": 0
+    },
+    "comments": {
+      "size": 0,
+      "start-index": 0,
+      "max-result": 0
+    },
+    "labels": {
+      "size": 0,
+      "start-index": 0,
+      "max-result": 0
+    },
+    "jiraIssues": {
+      "size": 3,
+      "start-index": 0,
+      "max-result": 3
+    },
+    "stages": {
+      "size": 1,
+      "expand": "stage",
+      "start-index": 0,
+      "max-result": 1,
+      "stage": [
+        {
+          "expand": "results",
+          "name": "Default Stage",
+          "description": "",
+          "id": 121575277,
+          "lifeCycleState": "Finished",
+          "state": "Failed",
+          "displayClass": "Failed",
+          "displayMessage": "1 of 25 jobs failed",
+          "collapsedByDefault": false,
+          "manual": false,
+          "restartable": true,
+          "runnable": false,
+          "results": {
+            "size": 25,
+            "expand": "result",
+            "start-index": 0,
+            "max-result": 25,
+            "result": [
+              {
+                "expand": "changes,testResults,metadata,logEntries,plan,vcsRevisions,artifacts,comments,labels,jiraIssues",
+                "link": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTQAE-MP-1925",
+                  "rel": "self"
+                },
+                "plan": {
+                  "shortName": "Multiboard - Pulse",
+                  "shortKey": "SSTQAE-MP",
+                  "type": "job",
+                  "enabled": true,
+                  "link": {
+                    "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTQAE-MP",
+                    "rel": "self"
+                  },
+                  "key": "SST-SSTQAE-MP",
+                  "name": "Sircon Smoke Test - Sircon Smoke Test - QA Environment - Multiboard - Pulse",
+                  "planKey": {
+                    "key": "SST-SSTQAE-MP"
+                  }
+                },
+                "planName": "Multiboard - Pulse",
+                "projectName": "Sircon Smoke Test",
+                "stage": "Default Stage",
+                "buildResultKey": "SST-SSTQAE-MP-1925",
+                "lifeCycleState": "Finished",
+                "id": 121517846,
+                "buildStartedTime": "2016-10-13T15:31:56.000-04:00",
+                "prettyBuildStartedTime": "Thu, 13 Oct, 03:31 PM",
+                "buildCompletedTime": "2016-10-13T15:32:55.000-04:00",
+                "buildCompletedDate": "2016-10-13T15:32:55.000-04:00",
+                "prettyBuildCompletedTime": "Thu, 13 Oct, 03:32 PM",
+                "buildDurationInSeconds": 59,
+                "buildDuration": 59027,
+                "buildDurationDescription": "59 seconds",
+                "buildRelativeTime": "7 hours ago",
+                "queueStartedTime": "2016-10-13T15:30:02.000-04:00",
+                "prettyQueueStartedTime": "Thu, 13 Oct, 03:30 PM",
+                "queueTimeInSeconds": 112,
+                "queueDuration": 112000,
+                "prettyQueueDuration": "1 min",
+                "vcsUpdateStartedTime": "2016-10-13T15:31:54.000-04:00",
+                "prettyVcsUpdateStartedTime": "Thu, 13 Oct, 03:31 PM",
+                "vcsUpdateInSeconds": 2,
+                "vcsUpdateDuration": 2000,
+                "prettyVcsUpdateDuration": "2 secs",
+                "vcsRevisionKey": "289676",
+                "vcsRevisions": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "buildTestSummary": "6 passed",
+                "successfulTestCount": 2,
+                "failedTestCount": 0,
+                "quarantinedTestCount": 0,
+                "skippedTestCount": 4,
+                "onceOff": false,
+                "buildReason": "Code has changed",
+                "reasonSummary": "Code changes detected",
+                "artifacts": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "comments": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "labels": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "jiraIssues": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "changes": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "testResults": {
+                  "all": 2,
+                  "successful": 2,
+                  "failed": 0,
+                  "newFailed": 0,
+                  "existingFailed": 0,
+                  "fixed": 0,
+                  "quarantined": 0,
+                  "skipped": 4
+                },
+                "metadata": {
+                  "size": 405,
+                  "start-index": 0,
+                  "max-result": 405
+                },
+                "logEntries": {
+                  "size": 343,
+                  "start-index": 0,
+                  "max-result": 25
+                },
+                "parent": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTQAE-1925",
+                  "rel": "parent"
+                },
+                "key": "SST-SSTQAE-MP-1925",
+                "planResultKey": {
+                  "key": "SST-SSTQAE-MP-1925",
+                  "entityKey": {
+                    "key": "SST-SSTQAE-MP"
+                  },
+                  "resultNumber": 1925
+                },
+                "state": "Successful",
+                "buildState": "Successful",
+                "number": 1925,
+                "buildNumber": 1925
+              },
+              {
+                "expand": "changes,testResults,metadata,logEntries,plan,vcsRevisions,artifacts,comments,labels,jiraIssues",
+                "link": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTQAE-PE-1925",
+                  "rel": "self"
+                },
+                "plan": {
+                  "shortName": "Producer Express",
+                  "shortKey": "SSTQAE-PE",
+                  "type": "job",
+                  "enabled": true,
+                  "link": {
+                    "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTQAE-PE",
+                    "rel": "self"
+                  },
+                  "key": "SST-SSTQAE-PE",
+                  "name": "Sircon Smoke Test - Sircon Smoke Test - QA Environment - Producer Express",
+                  "planKey": {
+                    "key": "SST-SSTQAE-PE"
+                  }
+                },
+                "planName": "Producer Express",
+                "projectName": "Sircon Smoke Test",
+                "stage": "Default Stage",
+                "buildResultKey": "SST-SSTQAE-PE-1925",
+                "lifeCycleState": "Finished",
+                "id": 121517840,
+                "buildStartedTime": "2016-10-13T15:32:25.000-04:00",
+                "prettyBuildStartedTime": "Thu, 13 Oct, 03:32 PM",
+                "buildCompletedTime": "2016-10-13T15:33:25.000-04:00",
+                "buildCompletedDate": "2016-10-13T15:33:25.000-04:00",
+                "prettyBuildCompletedTime": "Thu, 13 Oct, 03:33 PM",
+                "buildDurationInSeconds": 60,
+                "buildDuration": 60331,
+                "buildDurationDescription": "1 minute",
+                "buildRelativeTime": "7 hours ago",
+                "queueStartedTime": "2016-10-13T15:30:02.000-04:00",
+                "prettyQueueStartedTime": "Thu, 13 Oct, 03:30 PM",
+                "queueTimeInSeconds": 142,
+                "queueDuration": 142000,
+                "prettyQueueDuration": "2 mins",
+                "vcsUpdateStartedTime": "2016-10-13T15:32:24.000-04:00",
+                "prettyVcsUpdateStartedTime": "Thu, 13 Oct, 03:32 PM",
+                "vcsUpdateInSeconds": 1,
+                "vcsUpdateDuration": 1000,
+                "prettyVcsUpdateDuration": "1 sec",
+                "vcsRevisionKey": "289676",
+                "vcsRevisions": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "buildTestSummary": "5 passed",
+                "successfulTestCount": 5,
+                "failedTestCount": 0,
+                "quarantinedTestCount": 0,
+                "skippedTestCount": 0,
+                "onceOff": false,
+                "buildReason": "Code has changed",
+                "reasonSummary": "Code changes detected",
+                "artifacts": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "comments": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "labels": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "jiraIssues": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "changes": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "testResults": {
+                  "all": 5,
+                  "successful": 5,
+                  "failed": 0,
+                  "newFailed": 0,
+                  "existingFailed": 0,
+                  "fixed": 0,
+                  "quarantined": 0,
+                  "skipped": 0
+                },
+                "metadata": {
+                  "size": 406,
+                  "start-index": 0,
+                  "max-result": 406
+                },
+                "logEntries": {
+                  "size": 260,
+                  "start-index": 0,
+                  "max-result": 25
+                },
+                "parent": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTQAE-1925",
+                  "rel": "parent"
+                },
+                "key": "SST-SSTQAE-PE-1925",
+                "planResultKey": {
+                  "key": "SST-SSTQAE-PE-1925",
+                  "entityKey": {
+                    "key": "SST-SSTQAE-PE"
+                  },
+                  "resultNumber": 1925
+                },
+                "state": "Successful",
+                "buildState": "Successful",
+                "number": 1925,
+                "buildNumber": 1925
+              },
+              {
+                "expand": "changes,testResults,metadata,logEntries,plan,vcsRevisions,artifacts,comments,labels,jiraIssues",
+                "link": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTQAE-MBPORTAL-1925",
+                  "rel": "self"
+                },
+                "plan": {
+                  "shortName": "Multiboard - Portal",
+                  "shortKey": "SSTQAE-MBPORTAL",
+                  "type": "job",
+                  "enabled": true,
+                  "link": {
+                    "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTQAE-MBPORTAL",
+                    "rel": "self"
+                  },
+                  "key": "SST-SSTQAE-MBPORTAL",
+                  "name": "Sircon Smoke Test - Sircon Smoke Test - QA Environment - Multiboard - Portal",
+                  "planKey": {
+                    "key": "SST-SSTQAE-MBPORTAL"
+                  }
+                },
+                "planName": "Multiboard - Portal",
+                "projectName": "Sircon Smoke Test",
+                "stage": "Default Stage",
+                "buildResultKey": "SST-SSTQAE-MBPORTAL-1925",
+                "lifeCycleState": "Finished",
+                "id": 121517852,
+                "buildStartedTime": "2016-10-13T15:30:05.000-04:00",
+                "prettyBuildStartedTime": "Thu, 13 Oct, 03:30 PM",
+                "buildCompletedTime": "2016-10-13T15:32:10.000-04:00",
+                "buildCompletedDate": "2016-10-13T15:32:10.000-04:00",
+                "prettyBuildCompletedTime": "Thu, 13 Oct, 03:32 PM",
+                "buildDurationInSeconds": 125,
+                "buildDuration": 125346,
+                "buildDurationDescription": "2 minutes",
+                "buildRelativeTime": "7 hours ago",
+                "queueStartedTime": "2016-10-13T15:30:02.000-04:00",
+                "prettyQueueStartedTime": "Thu, 13 Oct, 03:30 PM",
+                "queueTimeInSeconds": 1,
+                "queueDuration": 1000,
+                "prettyQueueDuration": "1 sec",
+                "vcsUpdateStartedTime": "2016-10-13T15:30:03.000-04:00",
+                "prettyVcsUpdateStartedTime": "Thu, 13 Oct, 03:30 PM",
+                "vcsUpdateInSeconds": 2,
+                "vcsUpdateDuration": 2000,
+                "prettyVcsUpdateDuration": "2 secs",
+                "vcsRevisionKey": "289676",
+                "vcsRevisions": {
+                  "size": 2,
+                  "start-index": 0,
+                  "max-result": 2
+                },
+                "buildTestSummary": "6 passed",
+                "successfulTestCount": 6,
+                "failedTestCount": 0,
+                "quarantinedTestCount": 0,
+                "skippedTestCount": 0,
+                "onceOff": false,
+                "buildReason": "Code has changed",
+                "reasonSummary": "Code changes detected",
+                "artifacts": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "comments": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "labels": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "jiraIssues": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "changes": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "testResults": {
+                  "all": 6,
+                  "successful": 6,
+                  "failed": 0,
+                  "newFailed": 0,
+                  "existingFailed": 0,
+                  "fixed": 0,
+                  "quarantined": 0,
+                  "skipped": 0
+                },
+                "metadata": {
+                  "size": 406,
+                  "start-index": 0,
+                  "max-result": 406
+                },
+                "logEntries": {
+                  "size": 436,
+                  "start-index": 0,
+                  "max-result": 25
+                },
+                "parent": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTQAE-1925",
+                  "rel": "parent"
+                },
+                "key": "SST-SSTQAE-MBPORTAL-1925",
+                "planResultKey": {
+                  "key": "SST-SSTQAE-MBPORTAL-1925",
+                  "entityKey": {
+                    "key": "SST-SSTQAE-MBPORTAL"
+                  },
+                  "resultNumber": 1925
+                },
+                "state": "Successful",
+                "buildState": "Successful",
+                "number": 1925,
+                "buildNumber": 1925
+              },
+              {
+                "expand": "changes,testResults,metadata,logEntries,plan,vcsRevisions,artifacts,comments,labels,jiraIssues",
+                "link": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTQAE-JOB1-1925",
+                  "rel": "self"
+                },
+                "plan": {
+                  "shortName": "AgencyEDGE",
+                  "shortKey": "SSTQAE-JOB1",
+                  "type": "job",
+                  "enabled": true,
+                  "link": {
+                    "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTQAE-JOB1",
+                    "rel": "self"
+                  },
+                  "key": "SST-SSTQAE-JOB1",
+                  "name": "Sircon Smoke Test - Sircon Smoke Test - QA Environment - AgencyEDGE",
+                  "planKey": {
+                    "key": "SST-SSTQAE-JOB1"
+                  }
+                },
+                "planName": "AgencyEDGE",
+                "projectName": "Sircon Smoke Test",
+                "stage": "Default Stage",
+                "buildResultKey": "SST-SSTQAE-JOB1-1925",
+                "lifeCycleState": "Finished",
+                "id": 121517842,
+                "buildStartedTime": "2016-10-13T15:32:20.000-04:00",
+                "prettyBuildStartedTime": "Thu, 13 Oct, 03:32 PM",
+                "buildCompletedTime": "2016-10-13T15:42:48.000-04:00",
+                "buildCompletedDate": "2016-10-13T15:42:48.000-04:00",
+                "prettyBuildCompletedTime": "Thu, 13 Oct, 03:42 PM",
+                "buildDurationInSeconds": 628,
+                "buildDuration": 628318,
+                "buildDurationDescription": "10 minutes",
+                "buildRelativeTime": "7 hours ago",
+                "queueStartedTime": "2016-10-13T15:30:02.000-04:00",
+                "prettyQueueStartedTime": "Thu, 13 Oct, 03:30 PM",
+                "queueTimeInSeconds": 135,
+                "queueDuration": 135000,
+                "prettyQueueDuration": "2 mins",
+                "vcsUpdateStartedTime": "2016-10-13T15:32:17.000-04:00",
+                "prettyVcsUpdateStartedTime": "Thu, 13 Oct, 03:32 PM",
+                "vcsUpdateInSeconds": 3,
+                "vcsUpdateDuration": 3000,
+                "prettyVcsUpdateDuration": "3 secs",
+                "vcsRevisionKey": "289676",
+                "vcsRevisions": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "buildTestSummary": "1 of 1 failed",
+                "successfulTestCount": 0,
+                "failedTestCount": 1,
+                "quarantinedTestCount": 0,
+                "skippedTestCount": 0,
+                "onceOff": false,
+                "buildReason": "Code has changed",
+                "reasonSummary": "Code changes detected",
+                "artifacts": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "comments": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "labels": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "jiraIssues": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "changes": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "testResults": {
+                  "all": 1,
+                  "successful": 0,
+                  "failed": 1,
+                  "newFailed": 0,
+                  "existingFailed": 1,
+                  "fixed": 0,
+                  "quarantined": 0,
+                  "skipped": 0
+                },
+                "metadata": {
+                  "size": 404,
+                  "start-index": 0,
+                  "max-result": 404
+                },
+                "logEntries": {
+                  "size": 413,
+                  "start-index": 0,
+                  "max-result": 25
+                },
+                "parent": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTQAE-1925",
+                  "rel": "parent"
+                },
+                "key": "SST-SSTQAE-JOB1-1925",
+                "planResultKey": {
+                  "key": "SST-SSTQAE-JOB1-1925",
+                  "entityKey": {
+                    "key": "SST-SSTQAE-JOB1"
+                  },
+                  "resultNumber": 1925
+                },
+                "state": "Failed",
+                "buildState": "Failed",
+                "number": 1925,
+                "buildNumber": 1925
+              },
+              {
+                "expand": "changes,testResults,metadata,logEntries,plan,vcsRevisions,artifacts,comments,labels,jiraIssues",
+                "link": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTQAE-CE-1925",
+                  "rel": "self"
+                },
+                "plan": {
+                  "shortName": "Compliance Express",
+                  "shortKey": "SSTQAE-CE",
+                  "type": "job",
+                  "enabled": true,
+                  "link": {
+                    "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTQAE-CE",
+                    "rel": "self"
+                  },
+                  "key": "SST-SSTQAE-CE",
+                  "name": "Sircon Smoke Test - Sircon Smoke Test - QA Environment - Compliance Express",
+                  "planKey": {
+                    "key": "SST-SSTQAE-CE"
+                  }
+                },
+                "planName": "Compliance Express",
+                "projectName": "Sircon Smoke Test",
+                "stage": "Default Stage",
+                "buildResultKey": "SST-SSTQAE-CE-1925",
+                "lifeCycleState": "Finished",
+                "id": 121517845,
+                "buildStartedTime": "2016-10-13T15:32:16.000-04:00",
+                "prettyBuildStartedTime": "Thu, 13 Oct, 03:32 PM",
+                "buildCompletedTime": "2016-10-13T15:35:19.000-04:00",
+                "buildCompletedDate": "2016-10-13T15:35:19.000-04:00",
+                "prettyBuildCompletedTime": "Thu, 13 Oct, 03:35 PM",
+                "buildDurationInSeconds": 183,
+                "buildDuration": 183250,
+                "buildDurationDescription": "3 minutes",
+                "buildRelativeTime": "7 hours ago",
+                "queueStartedTime": "2016-10-13T15:30:02.000-04:00",
+                "prettyQueueStartedTime": "Thu, 13 Oct, 03:30 PM",
+                "queueTimeInSeconds": 128,
+                "queueDuration": 128000,
+                "prettyQueueDuration": "2 mins",
+                "vcsUpdateStartedTime": "2016-10-13T15:32:10.000-04:00",
+                "prettyVcsUpdateStartedTime": "Thu, 13 Oct, 03:32 PM",
+                "vcsUpdateInSeconds": 6,
+                "vcsUpdateDuration": 6000,
+                "prettyVcsUpdateDuration": "6 secs",
+                "vcsRevisionKey": "289676",
+                "vcsRevisions": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "buildTestSummary": "6 passed",
+                "successfulTestCount": 6,
+                "failedTestCount": 0,
+                "quarantinedTestCount": 0,
+                "skippedTestCount": 0,
+                "onceOff": false,
+                "buildReason": "Code has changed",
+                "reasonSummary": "Code changes detected",
+                "artifacts": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "comments": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "labels": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "jiraIssues": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "changes": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "testResults": {
+                  "all": 6,
+                  "successful": 6,
+                  "failed": 0,
+                  "newFailed": 0,
+                  "existingFailed": 0,
+                  "fixed": 0,
+                  "quarantined": 0,
+                  "skipped": 0
+                },
+                "metadata": {
+                  "size": 406,
+                  "start-index": 0,
+                  "max-result": 406
+                },
+                "logEntries": {
+                  "size": 340,
+                  "start-index": 0,
+                  "max-result": 25
+                },
+                "parent": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTQAE-1925",
+                  "rel": "parent"
+                },
+                "key": "SST-SSTQAE-CE-1925",
+                "planResultKey": {
+                  "key": "SST-SSTQAE-CE-1925",
+                  "entityKey": {
+                    "key": "SST-SSTQAE-CE"
+                  },
+                  "resultNumber": 1925
+                },
+                "state": "Successful",
+                "buildState": "Successful",
+                "number": 1925,
+                "buildNumber": 1925
+              },
+              {
+                "expand": "changes,testResults,metadata,logEntries,plan,vcsRevisions,artifacts,comments,labels,jiraIssues",
+                "link": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTQAE-PM-1925",
+                  "rel": "self"
+                },
+                "plan": {
+                  "shortName": "Producer Manager",
+                  "shortKey": "SSTQAE-PM",
+                  "type": "job",
+                  "enabled": true,
+                  "link": {
+                    "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTQAE-PM",
+                    "rel": "self"
+                  },
+                  "key": "SST-SSTQAE-PM",
+                  "name": "Sircon Smoke Test - Sircon Smoke Test - QA Environment - Producer Manager",
+                  "planKey": {
+                    "key": "SST-SSTQAE-PM"
+                  }
+                },
+                "planName": "Producer Manager",
+                "projectName": "Sircon Smoke Test",
+                "stage": "Default Stage",
+                "buildResultKey": "SST-SSTQAE-PM-1925",
+                "lifeCycleState": "Finished",
+                "id": 121517844,
+                "buildStartedTime": "2016-10-13T15:32:16.000-04:00",
+                "prettyBuildStartedTime": "Thu, 13 Oct, 03:32 PM",
+                "buildCompletedTime": "2016-10-13T15:34:25.000-04:00",
+                "buildCompletedDate": "2016-10-13T15:34:25.000-04:00",
+                "prettyBuildCompletedTime": "Thu, 13 Oct, 03:34 PM",
+                "buildDurationInSeconds": 129,
+                "buildDuration": 129582,
+                "buildDurationDescription": "2 minutes",
+                "buildRelativeTime": "7 hours ago",
+                "queueStartedTime": "2016-10-13T15:30:02.000-04:00",
+                "prettyQueueStartedTime": "Thu, 13 Oct, 03:30 PM",
+                "queueTimeInSeconds": 131,
+                "queueDuration": 131000,
+                "prettyQueueDuration": "2 mins",
+                "vcsUpdateStartedTime": "2016-10-13T15:32:13.000-04:00",
+                "prettyVcsUpdateStartedTime": "Thu, 13 Oct, 03:32 PM",
+                "vcsUpdateInSeconds": 3,
+                "vcsUpdateDuration": 3000,
+                "prettyVcsUpdateDuration": "3 secs",
+                "vcsRevisionKey": "289676",
+                "vcsRevisions": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "buildTestSummary": "8 passed",
+                "successfulTestCount": 7,
+                "failedTestCount": 0,
+                "quarantinedTestCount": 1,
+                "skippedTestCount": 0,
+                "onceOff": false,
+                "buildReason": "Code has changed",
+                "reasonSummary": "Code changes detected",
+                "artifacts": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "comments": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "labels": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "jiraIssues": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "changes": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "testResults": {
+                  "all": 7,
+                  "successful": 7,
+                  "failed": 0,
+                  "newFailed": 0,
+                  "existingFailed": 0,
+                  "fixed": 0,
+                  "quarantined": 1,
+                  "skipped": 0
+                },
+                "metadata": {
+                  "size": 406,
+                  "start-index": 0,
+                  "max-result": 406
+                },
+                "logEntries": {
+                  "size": 351,
+                  "start-index": 0,
+                  "max-result": 25
+                },
+                "parent": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTQAE-1925",
+                  "rel": "parent"
+                },
+                "key": "SST-SSTQAE-PM-1925",
+                "planResultKey": {
+                  "key": "SST-SSTQAE-PM-1925",
+                  "entityKey": {
+                    "key": "SST-SSTQAE-PM"
+                  },
+                  "resultNumber": 1925
+                },
+                "state": "Successful",
+                "buildState": "Successful",
+                "number": 1925,
+                "buildNumber": 1925
+              },
+              {
+                "expand": "changes,testResults,metadata,logEntries,plan,vcsRevisions,artifacts,comments,labels,jiraIssues",
+                "link": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTQAE-SFS-1925",
+                  "rel": "self"
+                },
+                "plan": {
+                  "shortName": "Sircon for States",
+                  "shortKey": "SSTQAE-SFS",
+                  "type": "job",
+                  "enabled": true,
+                  "link": {
+                    "href": "http://bamboo.sircon.com/rest/api/1.0/plan/SST-SSTQAE-SFS",
+                    "rel": "self"
+                  },
+                  "key": "SST-SSTQAE-SFS",
+                  "name": "Sircon Smoke Test - Sircon Smoke Test - QA Environment - Sircon for States",
+                  "planKey": {
+                    "key": "SST-SSTQAE-SFS"
+                  }
+                },
+                "planName": "Sircon for States",
+                "projectName": "Sircon Smoke Test",
+                "stage": "Default Stage",
+                "buildResultKey": "SST-SSTQAE-SFS-1925",
+                "lifeCycleState": "Finished",
+                "id": 121517860,
+                "buildStartedTime": "2016-10-13T15:30:06.000-04:00",
+                "prettyBuildStartedTime": "Thu, 13 Oct, 03:30 PM",
+                "buildCompletedTime": "2016-10-13T15:32:54.000-04:00",
+                "buildCompletedDate": "2016-10-13T15:32:54.000-04:00",
+                "prettyBuildCompletedTime": "Thu, 13 Oct, 03:32 PM",
+                "buildDurationInSeconds": 168,
+                "buildDuration": 168185,
+                "buildDurationDescription": "2 minutes",
+                "buildRelativeTime": "7 hours ago",
+                "queueStartedTime": "2016-10-13T15:30:02.000-04:00",
+                "prettyQueueStartedTime": "Thu, 13 Oct, 03:30 PM",
+                "queueTimeInSeconds": 1,
+                "queueDuration": 1000,
+                "prettyQueueDuration": "1 sec",
+                "vcsUpdateStartedTime": "2016-10-13T15:30:03.000-04:00",
+                "prettyVcsUpdateStartedTime": "Thu, 13 Oct, 03:30 PM",
+                "vcsUpdateInSeconds": 3,
+                "vcsUpdateDuration": 3000,
+                "prettyVcsUpdateDuration": "3 secs",
+                "vcsRevisionKey": "289676",
+                "vcsRevisions": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "buildTestSummary": "7 passed",
+                "successfulTestCount": 7,
+                "failedTestCount": 0,
+                "quarantinedTestCount": 0,
+                "skippedTestCount": 0,
+                "onceOff": false,
+                "buildReason": "Code has changed",
+                "reasonSummary": "Code changes detected",
+                "artifacts": {
+                  "size": 1,
+                  "start-index": 0,
+                  "max-result": 1
+                },
+                "comments": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "labels": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "jiraIssues": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "changes": {
+                  "size": 0,
+                  "start-index": 0,
+                  "max-result": 0
+                },
+                "testResults": {
+                  "all": 7,
+                  "successful": 7,
+                  "failed": 0,
+                  "newFailed": 0,
+                  "existingFailed": 0,
+                  "fixed": 0,
+                  "quarantined": 0,
+                  "skipped": 0
+                },
+                "metadata": {
+                  "size": 406,
+                  "start-index": 0,
+                  "max-result": 406
+                },
+                "logEntries": {
+                  "size": 396,
+                  "start-index": 0,
+                  "max-result": 25
+                },
+                "parent": {
+                  "href": "http://bamboo.sircon.com/rest/api/1.0/result/SST-SSTQAE-1925",
+                  "rel": "parent"
+                },
+                "key": "SST-SSTQAE-SFS-1925",
+                "planResultKey": {
+                  "key": "SST-SSTQAE-SFS-1925",
+                  "entityKey": {
+                    "key": "SST-SSTQAE-SFS"
+                  },
+                  "resultNumber": 1925
+                },
+                "state": "Successful",
+                "buildState": "Successful",
+                "number": 1925,
+                "buildNumber": 1925
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "changes": {
+      "size": 1,
+      "start-index": 0,
+      "max-result": 1
+    },
+    "metadata": {
+      "size": 0,
+      "start-index": 0,
+      "max-result": 0
+    },
+    "key": "SST-SSTQAE-1925",
+    "planResultKey": {
+      "key": "SST-SSTQAE-1925",
+      "entityKey": {
+        "key": "SST-SSTQAE"
+      },
+      "resultNumber": 1925
+    },
+    "state": "Failed",
+    "buildState": "Failed",
+    "number": 1925,
+    "buildNumber": 1925
+  }
+}
